@@ -1,5 +1,5 @@
 {
-	"name" : "ste80pa/suitecrm-client",
+	"name" : "kennedy-osaze/suitecrm-client",
 	"description" : "SuiteCRM Soap and Rest Client",
 	"autoload" : {
 		"psr-4" : {
@@ -7,14 +7,14 @@
 		}
 	},
 	"authors" : [{
-			"name" : "Stefano Pallozzi",
-			"email" : "ste80pa@gmail.com",
-			"homepage" : "https://github.com/ste80pa",
+			"name" : "Kennedy Osaze",
+			"email" : "me.osaze@gmail.com",
+			"homepage" : "https://github.com/kennedy-osaze",
 			"role" : "Developer"
 		}
 	],
 	"license" : "GPL-3.0",
-	"homepage" : "https://github.com/ste80pa/suitecrm-client",
+	"homepage" : "https://github.com/kennedy-osaze/suitecrm-client",
 	"keywords" : [
 		"suitecrm",
 		"soap",
