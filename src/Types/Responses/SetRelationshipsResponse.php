@@ -16,4 +16,9 @@ class SetRelationshipsResponse extends BaseResponse
      * @var mixed
      */
     public $return;
+
+    public function fromData($data)
+    {
+    	return $data;
+    }
 }

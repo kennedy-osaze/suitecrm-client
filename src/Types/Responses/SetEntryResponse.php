@@ -16,4 +16,18 @@ class SetEntryResponse extends BaseResponse
      * @var mixed
      */
     public $return;
+
+    public $data;
+
+    public function fromData($data)
+    {
+        if ($data == null) {
+            return $this;
+        }
+
+    	$this->return = $data->id;
+        $this->data = $data;
+        
+    	return $this;
+    }
 }

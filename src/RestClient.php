@@ -81,7 +81,8 @@ class RestClient extends Client
             case 200:
                  return $response->fromData(json_decode($result[1]));            
             default:
-                throw new Exception("Received " + $http_status);
+                // throw new Exception("Received " . $http_status);
+                throw new Exception("Received " . $http_status . '. '. curl_error($curl));
         }
         return null;
     }
